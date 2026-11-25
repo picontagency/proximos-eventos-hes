@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Próximos eventos · Hijas del Espíritu Santo</title>
+<meta name="description" content="Retiros, experiencias y encuentros de las Hijas del Espíritu Santo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Poppins,system-ui,sans-serif;color:#3b1d2e;background:#fffaf3}
+a{color:#4a1d3a}
+header{background:linear-gradient(180deg,#f6a04d 0%,#f9c56b 55%,#fde7b0 100%);padding:56px 20px 96px;text-align:center;position:relative;overflow:hidden}
+header .sol{position:absolute;left:50%;bottom:-130px;transform:translateX(-50%);opacity:.55;width:520px;max-width:120%}
+.cab{position:relative;display:flex;flex-direction:column;align-items:center;gap:10px}
+.logo{width:96px;height:96px;border-radius:50%;background:rgba(255,255,255,.85);display:flex;align-items:center;justify-content:center;font-size:13px;font-weight:700;color:#b8540c;overflow:hidden}
+.logo img{width:100%;height:100%;object-fit:contain}
+.nombre{margin:6px 0 0;font-size:15px;font-weight:600;color:#5a2a14}
+h1{margin:0;font-size:clamp(40px,7vw,64px);line-height:1.05;font-weight:800;color:#fff;text-shadow:0 2px 18px rgba(150,60,0,.25)}
+h1 em{font-family:Allura,cursive;font-style:normal;font-weight:400;font-size:1.35em;color:#4a1d3a;text-shadow:none}
+.intro{margin:0;max-width:560px;font-size:17px;line-height:1.55;color:#5a2a14}
+main{max-width:1040px;margin:-56px auto 0;padding:0 16px 64px;position:relative;display:flex;flex-direction:column;gap:56px}
+section{display:flex;flex-direction:column;gap:16px}
+h2{margin:0;font-size:26px;font-weight:800}
+.t1{color:#b8540c;background:#fffaf3;align-self:flex-start;padding:8px 18px 4px 0;border-radius:0 16px 0 0}
+.ev{display:grid;grid-template-columns:104px minmax(0,1fr);background:#fff;border-radius:20px;box-shadow:0 6px 24px rgba(184,84,12,.10);overflow:hidden}
+.fecha{background:#f07e07;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;padding:16px 6px;text-align:center}
+.fecha b{font-size:30px;line-height:1}.fecha span{font-size:14px;font-weight:600;margin-top:4px}.fecha small{font-size:12px;opacity:.9}
+.info{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:14px 24px;padding:18px 20px}
+.info>div:first-child{flex:1 1 260px;display:flex;flex-direction:column;gap:4px}
+h3{margin:0;font-size:20px;font-weight:700;color:#4a1d3a}
+.info p,.ot p{margin:0;font-size:15px;color:#6b4a5a}
+.ciudad{display:flex;align-items:center;gap:6px;font-weight:600;color:#b8540c!important}
+.bts{display:flex;flex-wrap:wrap;gap:10px}
+.btn{display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:0 20px;border-radius:999px;font-weight:600;font-size:15px;text-decoration:none}
+.btn:hover{filter:brightness(.95)}.btn:focus-visible{outline:3px solid #4a1d3a;outline-offset:2px}
+.b1{background:#fde7b0;color:#7a3a0a}.b2{background:#7a2e52;color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.ot{background:#fff;border:1px solid #f3d9b8;border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:8px}
+.ot .f{font-size:14px;font-weight:700;color:#f07e07}.ot .bts{margin-top:auto;padding-top:6px}
+.t2{color:#4a1d3a}
+.contactos{background:#4a1d3a;color:#fff;border-radius:28px;padding:36px clamp(20px,4vw,48px);gap:24px}
+.contactos .top{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:16px}
+.wa{background:#25a35a;color:#fff}
+.cts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px}
+.ct{display:flex;flex-direction:column;gap:2px}.ct span{font-size:13px;font-weight:600;color:#fde7b0}.ct b{font-size:16px}.ct a{font-size:14px;color:#f6dbe6;overflow-wrap:anywhere}
+  .vacio{background:#fff;border-radius:20px;box-shadow:0 6px 24px rgba(184,84,12,.10);padding:28px 24px;display:flex;flex-direction:column;gap:8px}.vacio p{margin:0;font-size:16px;color:#6b4a5a}
+footer{display:flex;flex-direction:column;align-items:center;gap:10px;text-align:center}
+footer .firma{margin:0;font-family:Allura,cursive;font-size:40px;color:#b8540c}
+footer p{margin:0;font-size:14px;color:#6b4a5a}
+@media(max-width:560px){.ev{grid-template-columns:84px minmax(0,1fr)}.fecha b{font-size:24px}.btn{flex:1 1 auto}}
+</style>
+</head>
+<body>
+<header>
+<svg class="sol" aria-hidden="true" viewBox="0 0 520 260"><circle cx="260" cy="260" r="200" fill="#fff6dc"/><circle cx="260" cy="260" r="140" fill="#fff"/></svg>
+<div class="cab">
+<div class="logo">Logo HES</div>
+<p class="nombre">Hijas del Espíritu Santo</p>
+<h1>Próximos <em>eventos</em></h1>
+<p class="intro">Retiros, experiencias y encuentros para caminar juntos en el Espíritu.</p>
+</div>
+</header>
+<main>
+<section><h2 class="t1">Organizados por las Hijas del Espíritu Santo</h2><article class="vacio"><h3>Muy pronto</h3><p>Estamos preparando el calendario de retiros, experiencias y encuentros. Vuelve pronto o escríbenos por WhatsApp para recibir la información.</p></article></section>
+<section><h2 class="t2">En participación y colaboración</h2><div class="grid"><article class="ot"><h3>Muy pronto</h3><p>Aquí aparecerán los eventos en los que participamos y colaboramos.</p></article></div></section>
+<section class="contactos"><div class="top"><h2>Contactos</h2><a class="btn wa" href="https://wa.me/525574973128">WhatsApp +52 55 7497 3128</a></div><div class="cts"><div class="ct"><span>México</span><b>Erandi Montero Tapia</b><a href="mailto:erandimt7@gmail.com">erandimt7@gmail.com</a></div><div class="ct"><span>Estados Unidos</span><b>Mónica Ocampo García</b><a href="mailto:monica.fsps@gmail.com">monica.fsps@gmail.com</a></div><div class="ct"><span>Chile</span><b>María Isabel Morales Delgado</b><a href="mailto:ma.isabel.m.0867@gmail.com">ma.isabel.m.0867@gmail.com</a></div><div class="ct"><span>Indonesia</span><b>Mercedes Leticia Casas Sánchez</b><a href="mailto:mercedescasas@hotmail.com">mercedescasas@hotmail.com</a></div><div class="ct"><span>Bolivia</span><b>Ma. del Rosario Méndez Chávez</b><a href="mailto:mendezchavezr12@gmail.com">mendezchavezr12@gmail.com</a></div></div></section>
+<footer><p class="firma">Hijas del Espíritu Santo</p><p>Daughters of the Holy Spirit</p><p>Facebook · Instagram · YouTube · TikTok · Spotify</p></footer>
+</main>
+</body>
+</html>
